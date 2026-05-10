@@ -747,7 +747,7 @@
       const fd = new FormData(e.target)
       const name = `${fd.get('fname')} ${fd.get('lname')}`.trim()
 
-      const { error } = await sb.from('inquiries').insert({
+      const { error } = await sb.from('leads').insert({
         name,
         email: fd.get('email') || null,
         phone: fd.get('phone') || null,
