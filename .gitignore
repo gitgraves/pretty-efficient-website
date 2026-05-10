@@ -1,0 +1,7 @@
+# Netlify (no longer used)
+.netlify
+netlify.toml
+
+# IDE
+.idea/
+*.iml
